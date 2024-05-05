@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: admin
+      password: password
+      database: library
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+  application:
+    name: library-service
+
+
+
